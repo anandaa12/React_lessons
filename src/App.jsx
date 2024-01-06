@@ -1,10 +1,16 @@
 import { useState } from 'react'
 
+
+import Router from './router'
+import Layout from './layout'
+
 function App() {
 
   return (
     <>
-      asd
+      <Layout>
+        <Router />
+      </Layout>
     </>
   )
 }
